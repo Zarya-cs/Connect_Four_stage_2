@@ -1,0 +1,132 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: #1a1af6;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.cell {
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.5s;
+    border: 4px solid #0000e3;
+    box-shadow: inset rgb(204, 204, 255) -3px -3px,
+    inset #ccccff 3px 3px;
+}
+.chip {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: -80px;
+    width: 100px;
+    height: 100px;
+    border: 4px solid #0000e3;
+    box-shadow: inset rgb(204, 204, 255) -3px -3px,
+    inset #ccccff 3px 3px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.board {
+    position: relative;
+    border: 5px solid #06068a;
+    border-radius: 5%;
+    background-color: #0202a6;
+}
+.empty {
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: #efef02;
+}
+h1 {
+    text-align: center;
+    font-family: "Pacifico", sans-serif;
+    font-weight: 400;
+}
+h2 {
+    color: white;
+}
+.boom {
+    background: url("img/confetti-4.gif.webp");
+}
+.aboutGame {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-radius: 15%;
+    background-color: cornflowerblue;
+}
+.move {
+    position: relative;
+    top: 30px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    border: 4px solid #0000e3;
+    box-shadow: inset #ccccff -3px -3px,
+    inset #ccccff 3px 3px;
+}
+div.win {
+    border: 4px solid limegreen;
+}
+.playersMove {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 15%;
+    background-color: cornflowerblue;
+}
+#result {
+    color: white;
+    text-align: center;
+}
+button {
+    background-color: rgba(0, 0, 255, 0.27);
+    color: white;
+    border: 0 solid white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: rgba(0, 0, 255, 0.09);
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.cell {
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.5s;
+    border: 4px solid #0000e3;
+    box-shadow: inset #ccccff -3px -3px,
+    inset #ccccff 3px 3px;
+}
+.game {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+footer {
+    text-align: center;
+}
